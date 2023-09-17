@@ -89,6 +89,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'djongo',
         'NAME': 'invoicing',
+          'CLIENT':{
+            'host':"mongodb+srv://motupallysuchitra:suchitra@cluster0.e36qnti.mongodb.net/"
+        }
     }
 }
 
